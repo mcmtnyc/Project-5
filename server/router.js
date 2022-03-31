@@ -1,6 +1,6 @@
 let express = require('express')
-let cocktailsRouter = require('./cocktails/router')
-let liquorRouter = require('./liquor/router')
+let router = require('./cocktails/router')
+let router = require('./liquor/router')
 
 let router = new express.Router()
 
