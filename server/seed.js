@@ -47,7 +47,6 @@ Cocktail
   .then((results)=> {
     console.log("Inserted seed cockatils")
     console.log(results)
-
     mongoose.connection.close()
   })
   .catch(error => console.error("Error inserting cocktails", error))
