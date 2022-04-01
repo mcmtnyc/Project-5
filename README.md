@@ -25,7 +25,7 @@ POST local.host:9000/cocktails // to add a cocktail, following schema in ./cockt
 GET local.host:9000/cocktails // to view all cocktails
 GET local.host:9000/cocktails/ // insert id ## to get cocktail//
 PUT local.host:9000/cocktails/ // insert id ## to get cocktail and update//
-DELETEl local.host:9000/cocktails/ // insert id ## to delete//
+DELETE local.host:9000/cocktails/ // insert id ## to delete//
 ```
 
 ## Authors
