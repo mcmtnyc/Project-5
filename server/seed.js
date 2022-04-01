@@ -44,8 +44,10 @@ for (let i = 0; i < data.length; i++) {
 Cocktail
   .deleteMany({})
   .then(()=> Cocktail.create(seedcocktails))
-  .then(()=> {
+  .then((results)=> {
     console.log("Inserted seed cockatils")
+    console.log(results)
+
     mongoose.connection.close()
   })
   .catch(error => console.error("Error inserting cocktails", error))

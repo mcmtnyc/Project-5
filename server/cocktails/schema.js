@@ -1,6 +1,6 @@
 let mongoose = require('mongoose')
 
-let Cocktail = new mongoose.Schema({
+let cocktailModel = mongoose.model("Cocktail", new mongoose.Schema({
   name: String,
   alcoholic: String,
   glass: String,
@@ -8,6 +8,6 @@ let Cocktail = new mongoose.Schema({
   image: String,
   ingredients: [String],
   amounts: [String],
-})
+}))
 
-module.exports = Cocktail
+module.exports = cocktailModel

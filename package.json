@@ -1,4 +1,8 @@
-{
+{  "scripts": {
+  "start": "node index.js",
+  "download": "node download.js",
+  "seed": "node seed.js"
+},
   "dependencies": {
     "axios": "^0.26.1",
     "express": "^4.17.3",
